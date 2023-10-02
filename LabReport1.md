@@ -32,6 +32,11 @@ When I used cd messages, I moved from the directory lecture1 to /messages which 
 The output isn't a error because I was given a new command line that directly spells out where I am.
 
 
+----------
+A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
+
+Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.
+-------
 
 # **ls**
 
@@ -39,15 +44,30 @@ The output isn't a error because I was given a new command line that directly sp
 
 ![Image](ls1.png)
 
+The working directory was previously on [user@sahara ~]$
+
+The output of ls was only lecture1 because it had no arguments, it only gave the face value list of the current directory or what is seen first on the workspace.
+There is no output error because we can always ls to see what files are available to cd into next.
+
 # Path to directory:
 
 ![Image](ls2.png)
+
+The working directory was previously on [user@sahara ~]$
+
+The output of ls lecture1 was every file listed inside of lecture1 which was  Hello.class  Hello.java 
+ messages and  README. This is because we added the argument lecture1 that we got to enter that find and return a list of the files in the argument directory
+There is no output error because we are allowed to enter one file from our current position to apply ls
 
 # Path to a file:
 
 ![Image](ls3.png)
 
+The working directory was previously on [user@sahara ~]$
+
 ![Image](ls3.5.png)
+
+The working directory was previously on [user@sahara ~]$
 
 
 # **cat**
