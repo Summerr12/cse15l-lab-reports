@@ -1,5 +1,7 @@
-cd
+**cd**
+
 ![Image](cd1.png)
+
 The working directory was previously on [user@sahara ~]
 
 When I used cd, nothing changed because I was "continously delivering" to nothing.
