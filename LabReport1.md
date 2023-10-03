@@ -77,7 +77,7 @@ However there is another way of finding a path to file using ls which is first c
 
 The working directory was previously on [user@sahara ~]$
 
-The output of cat is an infinite loop that types back exactly what you typed. Hence, this is an error output because it isn't concatenating anything. The only way to stop the loop is to use control + c which ends it and returns the standard directory prompt
+The output of cat is an infinite loop that types back exactly what you typed. Hence, this is an error output because it isn't concatenating anything because it has no argument inside to look into. The only way to stop the loop is to use control + c which ends it and returns the standard directory prompt
 
 **Path to directory:**
 
@@ -98,3 +98,5 @@ The output of cat lecture1/messages is "cat: lecture1/messages: Is a directory. 
 ![Image](cat3.5.png)
 
 The working directory was previously on [user@sahara ~]$
+
+The output of cat lecture1/messages/ja.txt is what I put in the text file for japanese translation for "Hello world!" "「こんにちは世界」". This is not an error output because the cat concatenated the ja file and printed the correct words.
