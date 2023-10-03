@@ -70,7 +70,7 @@ The output of ls messages which is toward a file doesn't work because we are cur
 
 The working directory was previously on [user@sahara ~]$
 
-However there is another way of finding a path to file using ls which is first cd lecture1, and then ls messages which gives the same output as ls lecture1/messages. There is no output error here because we directed to lecture1 and then listed a file inside of lecture1
+However there is another way of finding a path to file using ls which is first cd lecture1, and then ls messages which gives the same output as ls lecture1/messages. There is no output error here because we directed to lecture1 and then listed a file inside of lecture1.
 
 
 **cat**
