@@ -59,13 +59,13 @@ There is no output error because we are allowed to enter one file from our curre
 
 The working directory was previously on [user@sahara ~]$
 
-The output of ls messages which is toward a file doesn't work because we are currently at the default "home page". This output is a error because we cannot skip the first directory being lecture1. Hence the new output is ls lecture1/messages which allows a direct path to messages outputing en-us.txt  es-mx.txt  ja.txt  zh-cn.txt. This version has no output error since it returns text file names and sends back the default command prompt
+The output of ls messages which is toward a file doesn't work because we are currently at the default "home page". This output is a error because we cannot skip the first directory being lecture1. Hence the new output is ls lecture1/messages which allows a direct path to messages outputing en-us.txt  es-mx.txt  ja.txt  zh-cn.txt. This version has no output error since it returns text file names and sends back the default command prompt.
 
 ![Image](ls3.5.png)
 
 The working directory was previously on [user@sahara ~]$
 
-However there is another way of finding a path to file using ls which is first cd lecture1, and then ls messages which gives the same output as ls lecture1/messages. There is no output error here because we directed to lecture1 and then listed a file inside of lecture1.
+However there is another way of finding a path to file using ls which is first cd lecture1, and then ls messages which gives the same output as ls lecture1/messages. When we go a step furthur with lecture1/messages/ja.txt, the same line returns/ the text file name returns. There is no output error here because we directed to lecture1 and then listed a file inside of lecture1.
 
 ---------------------
 
@@ -75,15 +75,26 @@ However there is another way of finding a path to file using ls which is first c
 
 ![Image](cat1.png)
 
+The working directory was previously on [user@sahara ~]$
 
+The output of cat is an infinite loop that types back exactly what you typed. Hence, this is an error output because it isn't concatenating anything. The only way to stop the loop is to use control + c which ends it and returns the standard directory prompt
 
 **Path to directory:**
 
 ![Image](cat2.png)
 
-**Path to a file:**
+The working directory was previously on [user@sahara ~]$
+
+The output of cat lecture1 is "cat: lecture1: Is a directory". This is not an error output because it produced the fact that it wasn't a file.
 
 ![Image](cat3.png)
 
+The working directory was previously on [user@sahara ~]$
+
+The output of cat lecture1/messages is "cat: lecture1/messages: Is a directory. This is not an error output because it produced the fact that it wasn't a file.
+
+**Path to a file:**
+
 ![Image](cat3.5.png)
-you cannot contanenate with a directory 
+
+The working directory was previously on [user@sahara ~]$
