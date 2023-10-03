@@ -1,9 +1,9 @@
 ## Benjamin Nhan, 
 ## CSE15L
 
-# **cd**
+**cd**
 
-## No arguments:
+**No arguments:**
 
 ![Image](cd1.png)
 
@@ -13,7 +13,7 @@ When I used cd, nothing changed because I was "continously delivering" to nothin
 Since there are no arguments in "cd" yet, we are returned to nothing.
 The output isn't an error because I was given a new line to write again with [user@sahara ~].
 
-## Path to directory:
+**Path to directory:**
 
 ![Image](cd2.png)
 
@@ -22,7 +22,7 @@ The working directory was previously on [user@sahara ~]$
 When I used cd lecture1 which is adding a directory in the argument of cd, the code didn't change anything in the file but changed my location in the terminal. so it became [user@sahara ~/lecture1]$ because I was continously delivered to lecture. Now if I type ls, I can see all the files within lecture1.
 The output isn't a error because I was given a fresh command line saying user@sahara ~/lecture1]$
 
-## Path to a file:
+**Path to a file:**
 
 ![Image](cd3.png)
 
@@ -38,9 +38,9 @@ A sentence or two explaining why you got that output (e.g. what was in the files
 Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.
 -------
 
-# **ls**
+**ls**
 
-# No argument:
+**No argument:**
 
 ![Image](ls1.png)
 
@@ -49,7 +49,7 @@ The working directory was previously on [user@sahara ~]$
 The output of ls was only lecture1 because it had no arguments, it only gave the face value list of the current directory or what is seen first on the workspace.
 There is no output error because we can always ls to see what files are available to cd into next.
 
-# Path to directory:
+**Path to directory**:
 
 ![Image](ls2.png)
 
@@ -59,7 +59,7 @@ The output of ls lecture1 was every file listed inside of lecture1 which was  He
  messages and  README. This is because we added the argument lecture1 that we got to enter that find and return a list of the files in the argument directory
 There is no output error because we are allowed to enter one file from our current position to apply ls
 
-# Path to a file:
+**Path to a file:**
 
 ![Image](ls3.png)
 
@@ -70,17 +70,17 @@ The working directory was previously on [user@sahara ~]$
 The working directory was previously on [user@sahara ~]$
 
 
-# **cat**
+**cat**
 
-# No argument:
+**No argument:**
 
 ![Image](cat1.png)
 
-# Path to directory:
+**ath to directory:**
 
 ![Image](cat2.png)
 
-# Path to a file:
+**Path to a file:**
 
 ![Image](cat3.png)
 you cannot contanenate with a directory 
