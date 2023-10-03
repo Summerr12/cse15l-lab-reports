@@ -71,15 +71,19 @@ However there is another way of finding a path to file using ls which is first c
 
 **cat**
 
-**No argument:**c
+**No argument:**
 
 ![Image](cat1.png)
 
-**ath to directory:**
+
+
+**Path to directory:**
 
 ![Image](cat2.png)
 
 **Path to a file:**
 
 ![Image](cat3.png)
+
+![Image](cat3.5.png)
 you cannot contanenate with a directory 
