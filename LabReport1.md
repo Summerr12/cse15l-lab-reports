@@ -1,6 +1,6 @@
 ## Benjamin Nhan, 
 ## CSE15L
-
+---------------------
 **cd**
 
 **No arguments:**
@@ -31,12 +31,7 @@ The working directory was previously on [user@sahara ~/lecture1]$
 When I used cd messages, I moved from the directory lecture1 to /messages which changed my termimal prompt to [user@sahara ~/lecture1/messages]$. This only changed the output I get from ls because I'm now in a different space than I was previously.
 The output isn't a error because I was given a new command line that directly spells out where I am.
 
-
-----------
-A sentence or two explaining why you got that output (e.g. what was in the filesystem, what it meant to have no arguments).
-
-Indicate whether the output is an error or not, and if it’s an error, explain why it’s an error.
--------
+---------------------
 
 **ls**
 
@@ -72,10 +67,11 @@ The working directory was previously on [user@sahara ~]$
 
 However there is another way of finding a path to file using ls which is first cd lecture1, and then ls messages which gives the same output as ls lecture1/messages. There is no output error here because we directed to lecture1 and then listed a file inside of lecture1.
 
+---------------------
 
 **cat**
 
-**No argument:**
+**No argument:**c
 
 ![Image](cat1.png)
 
