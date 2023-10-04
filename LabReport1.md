@@ -46,26 +46,15 @@ There is no output error because we can always ls to see what files are availabl
 
 **Path to directory**:
 
-![Image](ls2.png)
-
-The working directory was previously on [user@sahara ~]$
-
-The output of ls lecture1 was every file listed inside of lecture1 which was  Hello.class  Hello.java  messages and  README. This is because we added the argument lecture1 that we got to enter that find and return a list of the files in the argument directory
-There is no output error because we are allowed to enter one file from our current position to apply ls
-
-**Path to a file:**
-
 ![Image](ls3.png)
 
 The working directory was previously on [user@sahara ~]$
 
 The output of ls messages which is toward a file doesn't work because we are currently at the default "home page". This output is a error because we cannot skip the first directory being lecture1. Hence the new output is ls lecture1/messages which allows a direct path to messages outputing en-us.txt  es-mx.txt  ja.txt  zh-cn.txt. This version has no output error since it returns text file names and sends back the default command prompt.
 
-![Image](ls3.5.png)
+**Path to a file:** FIX NEW ONE, this one doesnt work
 
 The working directory was previously on [user@sahara ~]$
-
-However there is another way of finding a path to file using ls which is first cd lecture1, and then ls messages which gives the same output as ls lecture1/messages. When we go a step furthur with lecture1/messages/ja.txt, the same line returns/ the text file name returns. There is no output error here because we directed to lecture1 and then listed a file inside of lecture1.
 
 ---------------------
 
