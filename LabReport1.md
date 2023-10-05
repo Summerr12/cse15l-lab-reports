@@ -29,7 +29,7 @@ The output isn't a error because I was given a fresh command line saying user@sa
 The working directory was previously on [user@sahara ~/lecture1]$
 
 When I used cd messages, I moved from the directory lecture1 to /messages which changed my termimal prompt to [user@sahara ~/lecture1/messages]$. This only changed the output I get from ls because I'm now in a different space than I was previously.
-The output isn't a error because I was given a new command line that directly spells out where I am.
+The output isn't a error because the code moved me correclty and I have my command prompt again.
 
 ---------------------
 
@@ -50,11 +50,15 @@ There is no output error because we can always ls to see what files are availabl
 
 The working directory was previously on [user@sahara ~]$
 
-The output of ls messages which is toward a file doesn't work because we are currently at the default "home page". This output is a error because we cannot skip the first directory being lecture1. Hence the new output is ls lecture1/messages which allows a direct path to messages outputing en-us.txt  es-mx.txt  ja.txt  zh-cn.txt. This version has no output error since it returns text file names and sends back the default command prompt.
+The output of ls messages which is toward a file doesn't work because we are currently at the default "home page". This output is a error because we cannot skip the first directory being lecture1. Hence the new output is ls lecture1/messages which allows a direct path to messages outputing en-us.txt  es-mx.txt  ja.txt  zh-cn.txt. This version has no output error since it returns text file names and sends back the default command promptand root directory.
 
-**Path to a file:** FIX NEW ONE, this one doesnt work
+**Path to a file:**
+
+![Image](ls4.png)
 
 The working directory was previously on [user@sahara ~]$
+
+The output of ls lecture1/messages/en-us.txt is towards a file and produces the name of our path. I believe because there is no content or paths left inside the file. This has no output error because it returns the default command prompt and root directory.
 
 ---------------------
 
