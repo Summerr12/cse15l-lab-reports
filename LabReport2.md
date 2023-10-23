@@ -27,7 +27,7 @@ The only change here is the String that is being input into the website.
 ![Image](image1.png)
 
 **Terminal interaction of logging in without the password**
-![Image](image3.png
+![Image](image3.png)
 
 ##P3
 
