@@ -24,7 +24,7 @@ The output isn't a error because I was given a fresh command line saying user@sa
 
 - **Path to a file:**
 
-![Image](cd.png)
+![Image](cd3.png)
 
 *The working directory was previously on `\home\lecture1\messages`*
 
