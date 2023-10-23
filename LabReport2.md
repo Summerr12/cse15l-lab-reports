@@ -21,6 +21,7 @@ The only change here is the String that is being input into the website.
 ##P2
 
 **Path to Private key on the computer**
+
 ![Image](image.png)
 
 **Path to Public key while logged into ieng6**
