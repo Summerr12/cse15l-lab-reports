@@ -1,5 +1,6 @@
 ## Benjamin Nhan, 
 ## CSE15L
+## Lab Report 2
 ---
 ##P1
 **String Server code**
