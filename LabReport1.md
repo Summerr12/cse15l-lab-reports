@@ -9,8 +9,8 @@
 
 *The working directory was previously on [user@sahara ~]$*
 
-When I used cd, nothing changed because I was "continously delivering" to the default root directory "~".
-Since there are no arguments in "cd" yet, we are returned to the same spot.
+When I used 'cd', nothing changed because I was "continously delivering" to the default root directory "~".
+Since there are no arguments in 'cd yet, we are returned to the same spot.
 The output isn't an error because I was given a new line to write again with [user@sahara ~].
 
 - **Path to directory:**
