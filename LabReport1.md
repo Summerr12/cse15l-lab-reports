@@ -7,29 +7,29 @@
 
 ![Image](cd1.png)
 
-*The working directory was previously on [user@sahara ~]$*
+*The working directory was previously on `\home` which looks like [user@sa  hara ~]$ in the terminal*
 
-When I used 'cd', nothing changed because I was "continously delivering" to the default root directory "~".
-Since there are no arguments in 'cd yet, we are returned to the same spot.
-The output isn't an error because I was given a new line to write again with [user@sahara ~].
+When I used `cd`, nothing changed because I was "change directory" to the default root directory "~".
+Since there are no arguments in `cd` yet, we are returned to the same spot.
+The output isn't an error because I was given a new line to write again with `\home`.
 
 - **Path to directory:**
 
 ![Image](cd2.png)
 
-*The working directory was previously on [user@sahara ~]$*
+*The working directory was previously on `\home`
 
-When I used cd lecture1 which is adding a directory in the argument of cd, the code didn't change anything in the file but changed my location in the terminal. so it became [user@sahara ~/lecture1]$ because I was continously delivered to lecture. Now if I type ls, I can see all the files within lecture1.
-The output isn't a error because I was given a fresh command line saying user@sahara ~/lecture1]$
+When I used `cd lecture1` which is adding a directory in the argument of `cd`, the code didn't change anything in the file but changed my location in the terminal. so it became [user@sahara ~/lecture1]$ because I was continously delivered to lecture. Now if I type `ls`, I can see all the files within `lecture1`.
+The output isn't a error because I was given a fresh command line saying user@sahara ~/lecture1]$ which is `\home\lecture1`
 
 - **Path to a file:**
 
 ![Image](cd3.png)
 
-*The working directory was previously on [user@sahara ~/lecture1]$*
+*The working directory was previously on `\home\lecture1\messages`
 
-When I used cd messages, I moved from the directory lecture1 to /messages which changed my termimal prompt to [user@sahara ~/lecture1/messages]$. This only changed the output I get from ls because I'm now in a different space than I was previously.
-The output isn't a error because the code moved me correclty and I have my command prompt again.
+When I used `cd `, I moved from the directory `\lecture1` to `/messages` which changed my termimal prompt to [user@sahara ~/lecture1/messages]$ and the working directory would now be `\home\lecture1\messages`. This only changed the output I get from ls because I'm now in a different space than I was previously.
+The output isn't a error because the code moved me correctly and I have my command prompt again.
 
 ---
 
@@ -50,7 +50,7 @@ There is no output error because we can always ls to see what files are availabl
 
 *The working directory was previously on [user@sahara ~]$*
 
-The output of ls messages which is toward a file doesn't work because we are currently at the default "home page". This output is a error because we cannot skip the first directory being lecture1. Hence the new output is ls lecture1/messages which allows a direct path to messages outputing en-us.txt  es-mx.txt  ja.txt  zh-cn.txt. This version has no output error since it returns text file names and sends back the default command promptand root directory.
+The output of ls messages which is toward a file doesn't work because we are currently at the default home directory. This output is a error because we cannot skip the first directory being lecture1. Hence the new output is ls lecture1/messages which allows a direct path to messages outputing en-us.txt  es-mx.txt  ja.txt  zh-cn.txt. This version has no output error since it returns text file names and sends back the default command prompt and root directory.
 
 - **Path to a file:**
 
@@ -70,7 +70,7 @@ The output of ls lecture1/messages/en-us.txt is towards a file and produces the 
 
 *The working directory was previously on [user@sahara ~]$*
 
-The output of cat is an infinite loop that types back exactly what you typed. Hence, this is an error output because it isn't concatenating anything because it has no argument inside to look into. The only way to stop the loop is to use control + c which ends it and returns the standard directory prompt
+The `cat` command alongisde no arguments reads data/input from the user and write it back as output. Although it continues as long as you type, it doesn't stop the command, it is not an error output because there is no error signal either. You can end the command through `control + c` and return it to standard directory prompt
 
 - **Path to directory:**
 
