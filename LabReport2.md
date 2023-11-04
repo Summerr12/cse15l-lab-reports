@@ -73,10 +73,10 @@ Previously, `word` contained  `"\n" + 1 + ": " + cool"   "\n" + 2 + ": " + aggre
 
 **Path to Private key on the computer**
 
-![Image](image.png)
+![Image](PathtopublickeyoncomputerLab2.png)
 
 **Path to Public key while logged into ieng6**
-![Image](image1.png)
+![Image](Pathtopublicwhileieng6Lab2.png)
 
 **Terminal interaction of logging in without the password**
 ![Image](image3.png)
