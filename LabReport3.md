@@ -64,7 +64,7 @@ The issue with the code was because when we would try to move the value at the r
 
 I chose `less` and according to google, it "shows a file's contents one screen at a time". When I used less, I got to see the terminal get replaced by the file text and you couldn't leave until you had your 45 rewards points I wanted to use. This also takes over the terminal until you click q. Here are 4 different command line options or alternate ways to use the command `less`
 
-**1) -p (pattern)**
+***1) -p (pattern)***
 
 technical/ directory code :
 
@@ -114,7 +114,7 @@ Output:
 The code `-p` finds a pattern inside the .txt file "use" because I chose that pattern to be searched. So in the terminal, we actually see the word "use" be highlighted throughout the text which is helpful for doing research and finding keywords. I found -p in https://man7.org/linux/man-pages/man1/less.1.html
 
 
-**2) -o (filename)**
+***2) -o (filename)***
 
 technical/ directory code :
 
@@ -149,7 +149,7 @@ Background
 ```
 This code o moves the text file to a file I created called tested.txt. I found it in `man less` in the terminal
 
-**3) -N **
+***3) -N ***
 
 technical/ directory code :
 
@@ -196,7 +196,7 @@ output:
 The code -N makes each line an iteration so it just counts the total number of lines in the file. This is helpful just to keep count of your file line number. I found it in https://man7.org/linux/man-pages/man1/less.1.html after searching up less command-line options on google
 
 
-**4) -e **
+***4) -e ***
 
 technical/ directory code :
 
