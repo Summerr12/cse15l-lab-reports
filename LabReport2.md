@@ -2,7 +2,7 @@
 ## CSE15L
 ## Lab Report 2
 ---
-##P1
+## P1
 **String Server code**
 ```
 import java.io.IOException;
@@ -68,8 +68,8 @@ Previously, `word` contained  `"\n" + 1 + ": " + cool"   "\n" + 2 + ": " + aggre
  `"\n" + 1 + ": " + "cool"   "\n" + 2 + ": " + "aggresive"   "\n" + 3 + ": " + "piggy"  "\n" + 4 + ": " + "I like dogs"`
  
  `"\n" + 1 + ": " + "cool"   "\n" + 2 + ": " + "aggresive"   "\n" + 3 + ": " + "piggy"  "\n" + 3 + ": " + "I like dogs"  "\n" + 5 + ": " + "ice cream"`
-
-##P2
+ 
+## P2
 
 **Path to Private key on the computer**
 
@@ -81,7 +81,7 @@ Previously, `word` contained  `"\n" + 1 + ": " + cool"   "\n" + 2 + ": " + aggre
 **Terminal interaction of logging in without the password**
 ![Image](image3.png)
 
-##P3
+## P3
 
 From week 2 or 3, I've learned how to read the URL and how `paths/queries/` and reading the code for creating those paths to access some add or increment codes to work in the browser. Query being the `?` and anything after will be sifted throught the code to check whether or not that is the correct input to activate the if statement to do whatever the code wanted
 I also learned how to edit the `NumberServer` to adopt into `StringServer `and use lists to make a list of words. 
