@@ -56,13 +56,13 @@ shift+g
 ```
 vim opens a built in text editor from the terminal to let me change the failing test code
 shift g sends me to the bottom of the code
-k is like an arrow up key that takes me to my desired line
-e sends me to the end of the first word which was the 1 inside of index1
-x deletes a character which was the 1
-i changes my mode to insert mode to be able to type inside the editor
-2 is the value i put inside in replacement of 1
+`k` is like an arrow up key that takes me to my desired line
+`e` sends me to the end of the first word which was the 1 inside of index1
+`x` deletes a character which was the 1
+`i` changes my mode to insert mode to be able to type inside the editor
+`2` is the value i put inside in replacement of 1
 esc takes me out of insert mode and to normal mode
-:wq saves and quits the text editor and sends me back to the terminal
+`:wq` saves and quits the text editor and sends me back to the terminal
 
 
 ## Step 8
@@ -89,3 +89,5 @@ java runs the code that was compiled from ListExamplesTests and shows the tests 
 `<enter>`
 
 git add adds the changes I made in the working directory
+git commit commits changes to the local repository with a message "index fix" because of -m
+git push pushes the commited changes to the github repository
