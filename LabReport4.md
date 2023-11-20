@@ -78,7 +78,7 @@ java runs the code that was compiled from ListExamplesTests and shows the tests 
 
 ## Step 9
 **Commit and push the resulting change to your Github account (you can pick any commit message!)**
-![Image](baselines9.png)
+![Image](baselines90.png)
 `git add ListExamples.java`
 `<enter>`
 
