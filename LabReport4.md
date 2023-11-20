@@ -31,7 +31,7 @@ This changes my current directory from /home/linux/ieng6/cs15lfa23/cs15lfa23ba t
 
 `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` 
 `<enter>`
-javac compiles the code
+javac compiles all the .java files inside the working directory including the junit library to help run the code with @test above
 
 `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` 
 `<enter>`
@@ -70,7 +70,7 @@ esc takes me out of insert mode and to normal mode
 ![Image](baselines8.png)
 `<up> <up> <up> <enter>`
 I went to the history by pressing up 3 times and finding `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` 
-javac compiles the code
+javac compiles all the .java files inside the working directory including the junit library to help run the code with @test above
 
 `<up> <up> <up> <enter>`
 I went to the history by pressing up 3 times and finding `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` and it was 3 ups again because I just entered in javac so it moves the history list 1 up
