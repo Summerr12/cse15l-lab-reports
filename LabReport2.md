@@ -74,9 +74,16 @@ Previously, `word` contained  `"\n" + 1 + ": " + cool"   "\n" + 2 + ": " + aggre
 **Path to Private key on the computer**
 
 ![Image](PathtopublickeyoncomputerLab2.png)
+believed to be~
+ls ~/.ssh/id_rsa
+/c/Users/Benjamin/.ssh/id_rsa
 
 **Path to Public key while logged into ieng6**
 ![Image](Pathtopublicwhileieng6Lab2.png)
+Believed to be~
+cd ~/.ssh
+ls ~/.ssh/id_rsa.pub
+/home/linux/ieng6/cs15lffa23/cs15lfa23ba/.ssh/id_rsa.pub
 
 **Terminal interaction of logging in without the password**
 ![Image](image3.png)
