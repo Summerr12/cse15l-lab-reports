@@ -45,8 +45,8 @@ A description of what to edit to fix the bug:
 To fix the bug where we get an out of bound we changed the line `arr[i] = arr[arr.length - i-2];` to `test[i] = arr[arr.length - i-1];` so a -2 to a -1 because 2 would not find any value in position after the first iteration. We also changed the first line from arr to test because we want to put the reversed values inside a temporary array and put the resulting values from the temporary array to move to the original array. This means we also need another for loop which will be below:
 ```
 for(int i = 0; i < arr.length; i += 1) {
-  //     arr[i] = test[i];
-  //   }
+      arr[i] = test[i];
+   }
 ```
 This for loop will be placed after the regular for loop where we are doing the actual reverse of an array
 
