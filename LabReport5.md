@@ -24,6 +24,7 @@ Tim: Okay so after testing, I realized the value 3 is considered `arr[0]` and th
 
 4.
   file & directory structure:
+  .class files were generated after javac java
 ```
 lib
   hamcrest-core-1.3.jar
@@ -42,6 +43,7 @@ Node.class
 StringChecker.class
 test.sh
 ```
+![Image](l5.structure.png)
 
 contents of each file before fixing the bug:
 The only files that were changed was `ArrayExamples.java`
