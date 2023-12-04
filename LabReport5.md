@@ -25,6 +25,9 @@ Tim: Okay so after testing, I realized the value 3 is considered `arr[0]` and th
 4.
   file & directory structure:
 ```
+lib
+  hamcrest-core-1.3.jar
+  junit-4.13.2.jar
 ArrayExamples.class
 ArrayExamples.java  
 ArrayTests.class  
@@ -37,7 +40,6 @@ ListExamples.class
 ListExamples.java
 Node.class
 StringChecker.class
-lib
 test.sh
 ```
 
